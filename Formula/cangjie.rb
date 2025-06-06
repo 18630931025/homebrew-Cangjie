@@ -6,7 +6,7 @@ class Cangjie < Formula
   
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/18630931025/cangjie-0.53.18/releases/download/v0.53.18/Cangjie-0.53.18-darwin_aarch64.tar.gz"
+      url "file:///Users/pllab/Documents/Cangjie-0.53.18-darwin_aarch64.tar.gz" 
       sha256 "0044b6810ef78b19ec451ef0514a8d4de1634ae36e4680746e89b329b381991e"
     else
       url "https://github.com/18630931025/cangjie-0.53.18/releases/download/v0.53.18/Cangjie-0.53.18-darwin_x64.tar.gz"
