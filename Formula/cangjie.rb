@@ -7,14 +7,14 @@ class Cangjie < Formula
   on_macos do
     if Hardware::CPU.arm?
       # 本地测试路径
-      url "https://github.com/18630931025/cangjie-0.53.18/releases/download/v0.53.18/Cangjie-0.53.18-darwin_aarch64.tar.gz"
+      url "https://gitcode.com/weixin_46244104/cangjie-mac/releases/download/cangjie-0.53.18/Cangjie-0.53.18-darwin_aarch64.tar.gz"
       sha256 "0044b6810ef78b19ec451ef0514a8d4de1634ae36e4680746e89b329b381991e"
 
       # 正式发布路径 (发布时取消注释)
       # url "https://github.com/18630931025/cangjie/releases/download/v#{version}/Cangjie-#{version}-darwin_aarch64.tar.gz"
       # sha256 "0044b6810ef78b19ec451ef0514a8d4de1634ae36e4680746e89b329b381991e"
     else
-      url "https://github.com/18630931025/cangjie-0.53.18/releases/download/v0.53.18/Cangjie-0.53.18-darwin_x64.tar.gz"
+      url "https://gitcode.com/weixin_46244104/cangjie-mac/releases/download/cangjie-0.53.18/Cangjie-0.53.18-darwin_x64.tar.gz"
       sha256 "2ce777c02c5c0c264ce6a2a1bbaf46ed981698c43cd967b096d2ecc116c29801"
     end
   end
